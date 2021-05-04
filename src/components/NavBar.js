@@ -41,14 +41,14 @@ export default function NavBar(){
           <SocialIcon 
             url="https://www.linkedin.com/in/samgold57/" 
             className="mr-4" 
-            target="_blank" 
+            target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon 
             url="https://github.com/sgold57" 
             className="mr-4" 
-            target="_blank" 
+            target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 35, width: 35 }}
           />
