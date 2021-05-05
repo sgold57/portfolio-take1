@@ -1,11 +1,2 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css?family=Russo One");
-
-.cursive {
-  font-family: "Russo One";
-  font-weight: 700;
-}
-
-.home-name {
-  font-size: 150px;
-}
