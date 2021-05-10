@@ -63,8 +63,8 @@ export default function Project(){
                 className="text-red-500 font-bold hover:underline hover:text-red-400"
               > 
                 View The Project{" "}
-                <span role="img" aria-label="left pointer"> {/* aria-label is like the alt tag for emojis */}
-                👈
+                <span role="img" aria-label="right pointer"> {/* aria-label is like the alt tag for emojis */}
+                👉
                 </span>
               </a>
             </div>
