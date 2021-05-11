@@ -1,2 +1,7 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.3.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url("https://fonts.googleapis.com/css?family=Russo One");
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap");
+
+.headerFont {
+  font-family: "Castoro";
+}
