@@ -10,7 +10,7 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <BrowserRouter>
-      <NavBar className="position:fixed left-0 h-full"/>
+      <NavBar />
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />
