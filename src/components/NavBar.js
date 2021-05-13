@@ -11,28 +11,28 @@ export default function NavBar(){
             to="/" 
             exact 
             activeClassName="text-white"
-            className="inflex-flex px-3 mx-4 my-8 text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider"
+            className="inflex-flex px-3 mx-4 my-7 text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider"
           >
             SAM GOLD
           </NavLink>
           <NavLink 
             to="/post" 
-            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-2xl headerFont text-green-600 hover:text-red-800"
-            activeClassName="text-red-800 bg-green-600 bg-opacity-40"
+            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
               Blog Posts
           </NavLink>
           <NavLink 
             to="/project" 
-            className="inline-flex items-center py-3 px-5 my-6 rounded text-2xl text-green-600 headerFont hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
             Projects
           </NavLink>
           <NavLink 
             to="/about" 
-            className="inline-flex items-center py-3 px-5 my-6 headerFont rounded text-2xl text-green-600 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
             About
           </NavLink>
