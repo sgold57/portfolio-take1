@@ -6,32 +6,32 @@ export default function NavBar(){
   return (
     <header className="bg-black position:fixed h-24">
       <div className="container mx-auto flex">
-        <nav className="flex justify-around">
+        <nav className="flex content-around">
           <NavLink 
             to="/" 
             exact 
             activeClassName="text-white"
-            className="inflex-flex px-3 mx-4 my-7 text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider"
+            className="inflex-flex sm:flex-nowrap items-center px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
           >
             SAM GOLD
           </NavLink>
           <NavLink 
             to="/post" 
-            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
             activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
               Blog Posts
           </NavLink>
           <NavLink 
             to="/project" 
-            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
             activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
             Projects
           </NavLink>
           <NavLink 
             to="/about" 
-            className="inline-flex items-center px-4 mt-7 mb-8 rounded text-3xl headerFont text-green-600 hover:text-red-800"
+            className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 sm:my-5 sm:px-0 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
             activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
           >
             About
