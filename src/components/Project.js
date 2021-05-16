@@ -60,7 +60,7 @@ export default function Project(){
                 href={project.link} 
                 rel="noopener noreferrer" 
                 target="_blank" 
-                className="text-red-500 font-bold hover:underline hover:text-red-400"
+                className="text-blue-500 font-bold hover:underline hover:text-red-400"
               > 
                 View The Project{" "}
                 <span role="img" aria-label="right pointer"> {/* aria-label is like the alt tag for emojis */}
