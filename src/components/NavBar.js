@@ -4,14 +4,14 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
   return (
-    <header className="bg-black position:fixed h-24">
-      <div className="container mx-auto flex">
-        <nav className="flex content-around">
+    <header className="bg-black sticky top-0 h-24">
+      <div className="mx-auto flex">
+        <nav className="flex content-around sm:flex-nowrap">
           <NavLink 
             to="/" 
             exact 
             activeClassName="text-white"
-            className="inflex-flex sm:flex-nowrap items-center px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
+            className="inflex-flex items-center px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
           >
             SAM GOLD
           </NavLink>

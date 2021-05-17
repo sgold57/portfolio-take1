@@ -5,3 +5,8 @@
 .headerFont {
   font-family: "Castoro";
 }
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
