@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home(){
   return (
-    <main className="bg-blue-600">
+    <main className="bg-blue-700">
       <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
         <h1 className="text-6xl text-yellow-400 font-bold">SAM GOLD</h1>
         <h2>{`DENVER <------ NYC`}</h2>
