@@ -1,13 +1,29 @@
 import React from "react";
+import HomePagePhoto from "../images/denver_hp.jpeg"
 
 export default function Home(){
   return (
-    <main className="bg-blue-700">
-      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h1 className="text-6xl text-yellow-400 font-bold">SAM GOLD</h1>
-        <h2>{`DENVER <------ NYC`}</h2>
-        <h2>SOFTWARE ENGINEER</h2>
-        <h2>PROBLEM SOLVER</h2>
+    <main className="bg-blue-700 min-h-screen">
+      <section className="flex space-between ml-4s pt-20 pb-20 px-8">
+        <div className="w-3/4">
+          <img className="shadow-2xl" src={HomePagePhoto}></img>
+        </div>
+        <div className="inline-block max-w-full">
+          <div className="flex flex-col bodyFont font-extrabold space-even text-5xl">
+            <div className="mt-3 ml-3 text-red-700">
+              SOFTWARE
+            </div>
+            <div className="ml-7 text-yellow-300">
+              ENGINEER
+            </div>
+            <div className="mt-9 ml-4 text-red-700">
+              PROBLEM
+            </div>
+            <div className="ml-7 text-yellow-300">
+              SOLVER
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   )
