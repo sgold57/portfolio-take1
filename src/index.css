@@ -2,6 +2,7 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Frijole&family=Montserrat:wght@500;600;700&family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap");
 
 .headerFont {
   font-family: "Castoro";
@@ -9,6 +10,10 @@
 
 .tabFont {
   font-family: "Montserrat";
+}
+
+.bodyFont {
+  font-family: "Noto Sans KR";
 }
 
 html {
