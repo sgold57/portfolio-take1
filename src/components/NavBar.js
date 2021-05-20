@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
   return (
-    <header className="bg-yellow-100 sticky top-0 h-20 xl:h-24">
+    <header className="bg-yellow-100 sticky top-0 h-20 lg:h-24">
       <div className="w-full flex mx-2">
         <nav className="flex">
           <NavLink 
@@ -24,7 +24,7 @@ export default function NavBar(){
             
             
             
-            activeClassName="inline-flex items-center text-lg text-green-600 mx-2 md:mx-3 mt-7"
+            activeClassName="inline-flex items-center text-lg text-green-600 mx-2 md:mx-3"
           >
             PROJECTS
           </NavLink>
