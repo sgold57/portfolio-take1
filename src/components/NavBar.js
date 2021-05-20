@@ -13,38 +13,37 @@ export default function NavBar(){
             activeClassName="text-white"
             //OLD CSS className="inflex-flex px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
             
-            className="inline-flex headerFont text-red-600 font-bold tracking-wide md:tracking-wider lg:tracking-wide items-center text-3xl lg:text-6xl xl:text-7xl ml-3 mr-6 mt-6 md:ml-11 lg:ml-8 md:mr-4"
+            className="inline-flex headerFont text-red-600 font-bold tracking-wide md:tracking-wider lg:tracking-wide items-center text-lg sm:text-2xl md:text-4xl lg:text-6xl xl:text-7xl mx-3 px-0.75 mt-6 md:ml-6 lg:ml-8 md:mr-4"
           >
             SAM GOLD
           </NavLink>
-                    <NavLink 
+          <NavLink 
             to="/project" 
             // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-            className="inline-flex tabFont items-center text-blue-700 tracking-tight text-lg md:text-2xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:mx-2 mt-5 lg:mt-3 xl:ml-12"
+            className="inline-flex tabFont items-center text-blue-700 tracking-tight text-md sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 sm:mx-3 md:px-2 mt-5 lg:mt-3 xl:mt-5 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
             
             
             
-            activeClassName="inline-flex items-center text-lg text-green-600 mx-2 md:mx-3"
+            activeClassName="focus:text-red-600 bg-blue-700 px-1 bg-opacity-40 rounded-lg"
+            // inline-flex items-center text-lg text-green-600 px-4 md:mx-3
           >
             PROJECTS
           </NavLink>
           <NavLink 
             to="/post" 
             //OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-            className="inline-flex tabFont items-center text-blue-700 tracking-tight text-lg md:text-2xl lg:text-3xl xl:text-4xl font-semibold tracking:wide mx-2 md:mx-2 mt-5 lg:mt-3 xl:ml-12"
-            
-            
-            activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
+            className="inline-flex tabFont items-center text-blue-700 tracking-tight text-md sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold tracking:wide mx-2 sm:mx-3 mt-5 md:px-2 lg:mt-3 xl:mt-5 xl:mb-4 xl:ml-10 hover:text-red-600"
+            activeClassName="focus:text-red-600 bg-blue-700 px-1 bg-opacity-40 rounded-lg"
           >
               BLOGS
           </NavLink>
           <NavLink 
             to="/about" 
             // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 sm:my-5 sm:px-0 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-            className="inline-flex tabFont items-center text-lg md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 tracking-tight mx-2 md:mr-1 xl:mr-5 mt-5 lg:mt-3 xl:ml-12"
+            className="inline-flex tabFont items-center text-md sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 tracking-tight mx-2 sm:mx-3 md:px-2 xl:mr-5 mt-5 lg:mt-3 xl:mt-5 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
             
             
-            activeClassName="text-yellow-300 bg-red-400 bg-opacity-40 hover:text-yellow-300"
+            activeClassName="focus:text-red-600 bg-blue-700 px-1 bg-opacity-40 rounded-lg"
           >
             ABOUT
           </NavLink>
@@ -52,14 +51,14 @@ export default function NavBar(){
         <div className="inline-flex mx-4">
           <SocialIcon 
             url="https://www.linkedin.com/in/samgold57/" 
-            className="mx-4 mt-5" 
+            className="mx-3 mr-2 mt-5 xl:" 
             target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 45, width: 45 }}
           />
           <SocialIcon 
             url="https://github.com/sgold57" 
-            className="mr-4 mt-5" 
+            className="mr-2 mt-5" 
             target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 45, width: 45 }}
