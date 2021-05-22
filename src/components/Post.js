@@ -26,20 +26,19 @@ export default function Post(){
   }, []);
   
   return(
-    <main className="bg-pink-200 min-h-screen p-12">
+    <main className="bg-blue-700 min-h-screen p-8">
       <section className="container mx-auto">
-          <h1 className="text-4xl flex justify-center">
-            BLOGS
-          </h1>
-          <h2 className="text-lg text-gray-600 flext justify-center mb-12">
-            Look at some of the stuff that I've written during my coding journey.
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-5xl bodyFont flex content-evenly justify-center mt-8 mb-16">
+            <span className="text-red-500 mx-2 lg:mx-3">DISCOVERIES FOUND</span>
+            <span className="text-yellow-200 mx-3 lg:mx-4">TIDBITS LEARNED</span>
+            <span className="text-red-500 mx-2 lg:mx-3">MUSINGS EXPRESSED</span>
+          </div>
+          <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
               {postData && postData.map((post, index) => (
             <article>
               <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                 <span 
-                  className="block h-64 relative rounded shadow leading-snug bg-gray-600 border-l-8 border-yellow-400" 
+                  className="block h-64 relative rounded shadow leading-snug bg-gray-600 border-l-8 border-red-700" 
                   key={index}
                 >
                   <img 
@@ -48,7 +47,7 @@ export default function Post(){
                     className="w-full h-full rounded-r object-cover absolute"
                   />
                     <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-                      <h3 className="text-gray-800 text-lg font-blog-px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded"
+                      <h3 className="text-yellow-100 font-bold text-lg font-blog-px-3 py-4 px-4 bg-red-700 bg-opacity-80 rounded"
                       >
                         {post.title}
                       </h3>

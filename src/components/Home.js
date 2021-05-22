@@ -5,8 +5,8 @@ export default function Home(){
   return (
     <main className="bg-blue-700 min-h-screen">
       <section className="flex space-between ml-4s pt-20 pb-20 px-8">
-        <div className="w-1/2 shadow-xl">
-          <img src={HomePagePhoto}></img>
+        <div className="w-1/2">
+          <img className="shadow-xl" src={HomePagePhoto}></img>
         </div>
         <div className="inline-block w-1/2 max-w-full">
           <div className="flex flex-col bodyFont font-extrabold space-even text-5xl md:text-6xl lg:text-7xl">
