@@ -28,7 +28,7 @@ export default function Post(){
   return(
     <main className="bg-blue-700 min-h-screen p-8">
       <section className="container mx-auto">
-          <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-5xl bodyFont flex content-evenly justify-center mt-8 mb-16">
+          <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl bodyFont flex content-evenly justify-center mt-8 mb-16">
             <span className="text-red-500 mx-2 lg:mx-3">DISCOVERIES FOUND</span>
             <span className="text-yellow-200 mx-3 lg:mx-4">TIDBITS LEARNED</span>
             <span className="text-red-500 mx-2 lg:mx-3">MUSINGS EXPRESSED</span>
@@ -47,7 +47,7 @@ export default function Post(){
                     className="w-full h-full rounded-r object-cover absolute"
                   />
                     <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-                      <h3 className="text-yellow-100 font-bold text-lg font-blog-px-3 py-4 px-4 bg-red-700 bg-opacity-80 rounded"
+                      <h3 className="text-yellow-100 font-bold text-lg bodyFont px-3 py-4 px-4 bg-red-700 bg-opacity-80 rounded"
                       >
                         {post.title}
                       </h3>
