@@ -21,13 +21,13 @@ export default function Project(){
   return (
     <main className="bg-blue-700 min-h-screen p-8">
       <section className="container mx-auto">
-        <h1 className="text-red-500 text-5xl bodyFont flex justify-center mb-8">
+        <h1 className="text-red-500 text-5xl xl:text-6xl bodyFont flex justify-center mb-8">
           MY WORK
         </h1>
-        <section className="grid grid-cols2 gap-8">
+        <section className="grid xl:grid-cols-2 gap-8">
           {projectData && projectData.map((project, index) => ( 
-          <article className="relative rounded-lg shadow-xl bg-white p-16">
-            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+          <article className="relative rounded-lg shadow-xl bodyFont bg-white p-16">
+            <h3 className="text-red-500 text-3xl font-bold mb-2 hover:text-red-700">
               {/* clickable a tag */}
               <a
                 href={project.link}
@@ -37,17 +37,17 @@ export default function Project(){
                 >{project.title}
               </a>
             </h3>
-            <div className="text-gray-500 text-sx space-x-4">  {/* where all the information (title, type, date) will live */}
-              <span>
-                <strong className="font-bold">Finished on</strong>:{" "}
+            <div className="text-md space-x-4">  {/* where all the information (title, type, date) will live */}
+              <span className="text-red-500">
+                <strong className="font-bold text-blue-700">Finished on:</strong>{" "}
                 {new Date(project.date).toLocaleDateString()}
               </span>
-              <span>
-                <strong className="font-bold">Company</strong>:{" "}
+              <span className="text-red-500">
+                <strong className="font-bold text-blue-700">Company:</strong>{" "}
                 {project.place}
               </span>
-              <span>
-                <strong className="font-bold">Type</strong>:{" "}
+              <span className="text-red-500">
+                <strong className="font-bold text-blue-700">Type:</strong>{" "}
                 {project.projectType}
               </span>
               <p className="my-6 text-lg text-gray-700 leading-relax">
