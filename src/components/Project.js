@@ -19,9 +19,9 @@ export default function Project(){
   }, []);
 
   return (
-    <main className="bg-blue-700 min-h-screen p-8">
+    <main className="bg-blue-700 opacity-80 min-h-screen p-8">
       <section className="container mx-auto">
-        <h1 className="text-red-500 text-2xl sm:text-4xl md:text-5xl xl:text-6xl bodyFont flex justify-center mb-8 mx-28 sm:mx-32 md:mx-34 pb-3 pt-2 md:pt-3 border-double border-4 border-yellow-200 shadow-lg">
+        <h1 className="text-red-600 opacity-80 text-2xl sm:text-4xl md:text-5xl xl:text-6xl bodyFont flex justify-center mb-8 mx-28 sm:mx-32 md:mx-34 pb-3 pt-2 md:pt-3 border-double border-4 border-yellow-200 shadow-lg">
           WORK EXAMPLES
         </h1>
         <section className="grid xl:grid-cols-2 gap-8">
