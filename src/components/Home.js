@@ -4,8 +4,8 @@ import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
 export default function Home(){
   return (
     <main className="flex bg-blue-700 min-h-screen min-w-screen">
-      <section className="flex w-screen justify-start space-between ml-4 mt-24 border-8 border-red-600">
-        <div className="border-solid border-5 border-pink-300">
+      <section className="flex w-screen justify-start space-between ml-4 mt-32 border-8 border-red-600">
+        <div className="border-solid border-5 border-pink-300 self-center">
           <img className="w-full" src={HomePagePhoto}></img>
         </div>
         {/* <div className="inline-block w-1/2 max-w-full border-solid border-8 border-yellow-600">
