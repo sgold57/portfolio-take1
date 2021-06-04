@@ -16,6 +16,10 @@
   font-family: "Noto Sans KR";
 }
 
+.homeLabelChildPadding {
+  padding-bottom: 44.5920304%;
+}
+
 html {
   height: 100%;
   overflow: hidden;
