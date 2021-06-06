@@ -3,28 +3,28 @@ import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
 
 export default function Home(){
   return (
-    <main className="relative bg-blue-700 min-h-screen min-w-screen mt-20 lg:mt-24 xl:mt-28">
-      <section className="relative flex max-w-screen top-12 py-24">
-        <img className=" self-center w-full" src={HomePagePhoto}></img>
-        <div className="absolute flex-col content-evenly inset-y-24 lg:inset-y-1/2 lg:mt-8 left-1/2 w-1/2 text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
-          <div className="flex-col">
-            <div className="flex justify-start bodyFont font-extrabold mt-6 md:mt-9 xl:mt-4">
-              <span className="text-yellow-200">SOFTWARE</span>
-              <span className="text-red-500 ml-3">ENGINEER</span>
+    <main className="relative bg-blue-700 bg-opacity-80 min-h-screen min-w-screen mt-20 lg:mt-24 xl:mt-28">
+      <section className="relative flex max-w-screen top-12 lg:top-8 py-8">
+        <img className="self-center w-full opacity-90" src={HomePagePhoto}></img>
+        <div className="absolute flex-col content-evenly inset-y-8 lg:inset-y-1/2 lg:mt-10 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
+          <div className="flex-col lg:mr-5">
+            <div className="flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-12 lg:mt-5 xl:mt-4">
+              <span className="text-red-700 text-opacity-80">SOFTWARE</span>
+              <span className="text-yellow-200 ml-3">ENGINEER</span>
             </div>
-            <div className="flex justify-start bodyFont font-extrabold mt-6">
-              <span className="text-red-500">PROBLEM</span>
-              <span className="text-yellow-200 ml-4">SOLVER</span>
+            <div className="flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-2 md:mt-6 lg:mt-4">
+              <span className="text-yellow-200">PROBLEM</span>
+              <span className="text-red-700 text-opacity-80 ml-3">SOLVER</span>
             </div> 
           </div>
-          <div className="flex-col mt-12 sm:mt-20 md:mt-28 lg:mt-6 xl:mt-10 justify-start bodyFont font-extrabold">
-            <div className="bodyFont font-extrabold">
-              <span className="text-yellow-200 lg:tracking-tight">90'S RAP</span>
-              <span className="text-red-500 ml-3">ENTHUSIAST</span> 
+          <div className="flex-col mt-12 sm:mt-16 md:mt-28 lg:mt-8 lg:mr-5 xl:mt-10 bodyFont font-extrabold">
+            <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tight bodyFont font-extrabold">
+              <span className="text-red-700 text-opacity-80">90'S RAP</span>
+              <span className="text-yellow-200 ml-3">ENTHUSIAST</span> 
             </div> 
-            <div className="bodyFont font-extrabold mt-6 md:mt-9">
-              <span className="text-red-500">BASKETBALL</span>
-              <span className="text-yellow-200 ml-2 sm:ml-3 lg:m-6">JUNKIE</span> 
+            <div className="flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-2 md:mt-6 lg:mt-4">
+              <span className="text-yellow-200">BASKETBALL</span>
+              <span className="text-red-700 text-opacity-80 ml-3">JUNKIE</span> 
             </div> 
           </div>          
         </div>
