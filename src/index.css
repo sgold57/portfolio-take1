@@ -24,8 +24,9 @@
   color: rgb(207,75,70);
 }
 
-.imageYellow {
-  color: rgb(210,171,82);
+
+.bgImageOffWhite {
+  background-color: rgb(234,218,181);
 }
 
 html {
