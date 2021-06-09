@@ -4,21 +4,21 @@ import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
 export default function Home(){
   return (
     <main className="relative bg-blue-700 bg-opacity-90 min-h-screen min-w-screen mt-20 lg:mt-24 xl:mt-28">
-      <section className="relative flex max-w-screen top-12 lg:top-8 py-8">
-        <img className="self-center w-full opacity-90" src={HomePagePhoto}></img>
+      <section className="relative flex max-w-screen top-12 lg:top-8 py-8 ">
+        <img className="self-center max-w-screen opacity-90" src={HomePagePhoto}></img>
         <div className="absolute flex-col content-evenly inset-y-8 lg:inset-y-1/2 lg:mt-10 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
           <div className="flex-col lg:mr-5">
-            <div className="flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-12 lg:mt-5 xl:mt-4">
+            <div className="flex justify-center md:justify-start lg:justify-end  bodyFont font-extrabold mt-12 lg:mt-5 xl:mt-4">
               <span className="imageRed text-opacity-80">SOFTWARE</span>
               <span className="text-yellow-200 ml-3">ENGINEER</span>
             </div>
-            <div className="flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-2 md:mt-6 lg:mt-4">
+            <div className="flex justify-center md:justify-start lg:justify-end  bodyFont font-extrabold mt-2 md:mt-6 lg:mt-4">
               <span className="text-yellow-200">PROBLEM</span>
               <span className="imageRed text-opacity-80 ml-3">SOLVER</span>
             </div> 
           </div>
           <div className="flex-col mt-12 sm:mt-16 md:mt-28 lg:mt-8 lg:mr-5 xl:mt-10 bodyFont font-extrabold">
-            <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tight bodyFont font-extrabold">
+            <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter bodyFont font-extrabold">
               <span className="imageRed text-opacity-80">90'S RAP</span>
               <span className="text-yellow-200 ml-3">ENTHUSIAST</span> 
             </div> 
@@ -32,7 +32,8 @@ export default function Home(){
       </section>
     </main>
   )
-
+ //lg:mr-5 ADD TO LINE 10
+ //inset-y-8 lg:inset-y-1/2 lg:mt-10 left-1/2 w-1/2  ADD TO LINE 9
 }
 
 
