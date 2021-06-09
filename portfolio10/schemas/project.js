@@ -4,15 +4,16 @@ export default {
   type: "document",
   fields: [
     {
-      name: "title",
+      name: "name",
       type: "string",
     },
     {
-      name: "date",
-      type: "datetime",
+      name: "technologiesUsed",
+      type: "array",
+      of: [{type: 'string'}]
     },
     {
-      name: "place",
+      name: "institution",
       type: "string",
     },
     {
