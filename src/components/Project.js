@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client.js";
+import { siReact, siJavascript } from "react-icons";
 
 export default function Project(){
   const [projectData, setProjectData] = useState(null);
 
   useEffect(() => {
     sanityClient.fetch(`*[_type =="project"]{
-      title,
-      date, 
-      place, 
+      name,
+      technologiesUsed, 
+      institution, 
       description, 
       projectType, 
       link, 
@@ -21,7 +22,7 @@ export default function Project(){
   return (
     <main className="bg-blue-700 min-h-screen p-8">
       <section className="container mx-auto mt-40">
-        <h1 className="text-red-600 opacity-80 text-2xl sm:text-4xl md:text-5xl xl:text-6xl bodyFont flex justify-center mb-8 mx-28 sm:mx-32 md:mx-34 pb-3 pt-2 md:pt-3 border-double border-4 border-yellow-200 shadow-lg">
+        <h1 className="imageRed opacity-80 text-2xl sm:text-4xl md:text-5xl xl:text-6xl bodyFont text-center mb-8 mx-28 sm:mx-32 md:mx-34 pb-3 pt-2 md:pt-3 border-double border-8 border-yellow-200 shadow-lg">
           WORK EXAMPLES
         </h1>
         <section className="grid xl:grid-cols-2 gap-8">
@@ -31,23 +32,23 @@ export default function Project(){
               {/* clickable a tag */}
               <a
                 href={project.link}
-                alt={project.title}
+                alt={project.name}
                 target="_blank"
                 rel="noopener noreferrer"
-                >{project.title}
+                >{project.name}
               </a>
             </h3>
             <div className="text-md space-x-4">  {/* where all the information (title, type, date) will live */}
               <span className="text-red-500">
-                <strong className="font-bold text-blue-700">Finished on:</strong>{" "}
-                {new Date(project.date).toLocaleDateString()}
+                <strong className="font-bold text-blue-700">Technologies Used:</strong>{"  "}
+                {project.technologiesUsed.map(tech => `${tech}   `)}
               </span>
               <span className="text-red-500">
-                <strong className="font-bold text-blue-700">Company:</strong>{" "}
-                {project.place}
+                <strong className="font-bold text-blue-700">Institution:</strong>{"  "}
+                {project.institution}
               </span>
               <span className="text-red-500">
-                <strong className="font-bold text-blue-700">Type:</strong>{" "}
+                <strong className="font-bold text-blue-700">Type:</strong>{"  "}
                 {project.projectType}
               </span>
               <p className="my-6 text-lg text-gray-700 leading-relax">
