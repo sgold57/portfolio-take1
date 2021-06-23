@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client.js";
-import { siReact, siJavascript } from "react-icons";
 
 export default function Project(){
   const [projectData, setProjectData] = useState(null);
@@ -41,8 +40,10 @@ export default function Project(){
             <div className="text-md space-x-4">  {/* where all the information (title, type, date) will live */}
               <span className="text-red-500">
                 <strong className="font-bold text-blue-700">Technologies Used:</strong>{"  "}
-                {project.technologiesUsed.map(tech => `${tech}   `)}
-              </span>
+                  {project.technologiesUsed.map(techUrl => 
+                    <img className="w-9 h-9 color-red-500" src={techUrl} />
+                  )}
+                </span>
               <span className="text-red-500">
                 <strong className="font-bold text-blue-700">Institution:</strong>{"  "}
                 {project.institution}

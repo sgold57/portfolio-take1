@@ -10,7 +10,7 @@ export default {
     {
       name: "technologiesUsed",
       type: "array",
-      of: [{type: 'string'}]
+      of: [{type: 'url'}]
     },
     {
       name: "institution",
