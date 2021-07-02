@@ -26,7 +26,7 @@ export default function Post(){
   }, []);
   
   return(
-    <main className="bg-blue-700 min-h-screen">
+    <main className="bg-blue-700 min-h-screen min-w-screen">
       <section className="container mx-auto">
           <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl bodyFont flex content-evenly justify-center pt-32 mb-16">
             <span className="text-red-500 mx-2 lg:mx-3">DISCOVERIES FOUND</span>
