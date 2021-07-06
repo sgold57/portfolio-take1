@@ -4,7 +4,6 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
   return (
-    // bg-yellow-100 bg-opacity-90 
     <header className="bgImageOffWhite fixed w-full top-0 h-20 lg:h-24 xl:h-28">
       <div className="w-full flex mx-2">
         <nav className="flex">
@@ -19,10 +18,11 @@ export default function NavBar(){
             SAM GOLD
           </NavLink>
           <NavLink 
-            to="/project" 
+            to="/project"
+            exact 
             // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-            className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
-            
+            // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
+            className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold tracking:wide mx-2 mt-5 md:px-1 lg:mt-6 xl:mt-7 xl:mb-4 xl:ml-10 hover:text-red-600"
             
             
             activeClassName="focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
@@ -32,19 +32,21 @@ export default function NavBar(){
           </NavLink>
           <NavLink 
             to="/post" 
+            exact
             //OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
             className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold tracking:wide mx-2 mt-5 md:px-1 lg:mt-6 xl:mt-7 xl:mb-4 xl:ml-10 hover:text-red-600"
-            activeClassName="focus:imageRed bg-blue-700 px-1 bg-opacity-40 rounded-lg"
+            activeClassName="focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
           >
-              BLOGS
+            BLOGS
           </NavLink>
           <NavLink 
             to="/about" 
             // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 sm:my-5 sm:px-0 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-            className="inline-flex tabFont items-center text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 text-opacity-90 tracking-tight mx-2 md:px-1 xl:mr-5 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
+            // className="inline-flex tabFont items-center text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 text-opacity-90 tracking-tight mx-2 md:px-1 xl:mr-5 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
             
-            
-            activeClassName="focus:text-red-600 bg-blue-700 px-1 bg-opacity-40 rounded-lg"
+            // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
+            className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold tracking:wide mx-2 mt-5 md:px-1 lg:mt-6 xl:mt-7 xl:mb-4 xl:ml-10 hover:text-red-600"
+            activeClassName="focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
           >
             ABOUT
           </NavLink>
