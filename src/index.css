@@ -33,3 +33,16 @@ html {
   height: 100%;
   overflow: hidden;
 }
+
+@media screen and (max-width: 425px){
+  main { 
+    background-color: rgba(29, 78, 216);
+    background-size: cover;
+    /* min-width: full;
+    min-height: full; */
+  }
+  
+  .textDiv {
+    background-color: red;
+  }
+}

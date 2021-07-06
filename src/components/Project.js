@@ -19,7 +19,7 @@ export default function Project(){
   }, []);
 
   return (
-    <main className="bg-blue-700 min-h-screen pt-6 lg:pt-8">
+    <main className="bg-blue-700 min-h-screen min-w-screen pt-6 lg:pt-8">
       <section className="container mx-auto mt-24 lg:mt-28">
         <h1 className="imageRed opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center mb-8 mx-32 lg:mx-56 py-3 md:pt-3 border-double border-4 border-yellow-200 shadow-xl">
           WORK EXAMPLES
