@@ -4,13 +4,12 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
   return (
-    <header className="bgImageOffWhite fixed w-full top-0 h-20 lg:h-24 xl:h-28">
+    <header className="bgImageOffWhite sticky top-0 w-full h-20 lg:h-24 xl:h-28">
       <div className="w-full flex mx-2">
         <nav className="flex">
           <NavLink 
             to="/" 
             exact 
-            activeClassName="text-white"
             //OLD CSS className="inflex-flex px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
             
             className="inline-flex bodyFont imageRed text-opacity-80 font-bold tracking-wide items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl mx-1 px-0.75 mt-3 lg:mt-4 xl:mt-7 md:ml-6 lg:ml-8 md:mr-4 sm:pr-2 md:pr-0"
