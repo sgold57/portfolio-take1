@@ -16,7 +16,7 @@ export default function About(){
   
   return (
     <main className="bgImageOffWhite h-screen w-screen pt-6 lg:pt-8 overflow-auto" >
-        <div className="shadow:xl md:ml-6 lg:ml-8 p-6 md:pt-28 lg:pt-32 mx-auto">
+        <div className="shadow:xl md:ml-6 lg:ml-8 p-6 md:pt-32 lg:pt-36 mx-auto">
           <img className="" src={aboutMe} alt="About Me" />
         </div>
     </main>
