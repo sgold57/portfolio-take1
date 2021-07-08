@@ -64,7 +64,7 @@ export default function Project(){
                 target="_blank" 
                 className="text-blue-500 font-bold hover:underline hover:text-red-400"
               > 
-                View The Project{" "}
+                Github{" "}
                 <span role="img" aria-label="right pointer"> {/* aria-label is like the alt tag for emojis */}
                 👉
                 </span>
