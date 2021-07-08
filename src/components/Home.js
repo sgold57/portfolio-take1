@@ -1,7 +1,10 @@
 import React from "react";
 import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
 
-export default function Home(){
+
+
+export default function Home({ getBballLink, bballLinks }){
+  
   return (
     // mt-20 lg:mt-24 xl:mt-28
     <main className="bg-blue-700 bg-opacity-90 h-screen w-screen overflow-auto">
@@ -20,12 +23,16 @@ export default function Home(){
           </div>
           <div className="flex-col mt-12 sm:mt-16 md:mt-28 lg:mt-8 lg:mr-5 xl:mt-10 bodyFont font-extrabold">
             <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold">
-              <span className="imageRed text-opacity-80">90'S RAP</span>
-              <span className="text-yellow-200 ml-3">ENTHUSIAST</span> 
+              
+                <span className="imageRed text-opacity-80">90'S RAP</span>
+                <span className="text-yellow-200 ml-3">ENTHUSIAST</span> 
             </div> 
+            
             <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold mt-2 md:mt-6 lg:mt-4">
-              <span className="text-yellow-200">BASKETBALL</span>
-              <span className="imageRed text-opacity-80 ml-3">JUNKIE</span> 
+              <a href={getBballLink(bballLinks)} target="_blank">
+                <span className="text-yellow-200">BASKETBALL</span>
+                <span className="imageRed text-opacity-80 ml-3">JUNKIE</span> 
+              </a>
             </div> 
           </div>          
         </div>

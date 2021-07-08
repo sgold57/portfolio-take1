@@ -8,11 +8,28 @@ import NavBar from "./components/NavBar";
 // import './App.css';
 
 function App() {
+
+  let getBballLink = (array) => {
+
+    return array[Math.floor(Math.random() * array.length)];
+    
+  };
+
+  let bballLinks = [
+    'https://www.youtube.com/watch?v=EAzVVKNcDbM', 
+    'https://www.youtube.com/watch?v=rhCy8q2p5Jw',
+    'https://www.youtube.com/watch?v=h7MFaPOfGeU',
+    'https://www.youtube.com/watch?v=k9NUCr38ykE'
+  ]
+  
+
   return (
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route component={Home} path='/' exact />
+        <Route path='/' exact render={() => (
+          <Home getBballLink={getBballLink} bballLinks={bballLinks} />
+        )} />
         <Route component={Project} path='/project' exact />
         <Route component={Post} path='/post' exact />
         <Route component={SinglePost} path='/post/:slug' />
