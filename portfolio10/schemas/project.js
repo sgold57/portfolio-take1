@@ -31,7 +31,11 @@ export default {
     {
       name: "images",
       type: "array",
-      of: [{type: 'image'}]
+      of: [
+        {
+          type: 'image'
+        }
+      ],
     },
     {
       name: "tags",
