@@ -24,22 +24,14 @@ export default {
       name: "api",
       type: "string",
     },
-    // {
-    //   name: "projectType",
-    //   title: "Project type",
-    //   type: "string",
-    //   options: {
-    //     list: [
-    //       // Different dropdown w/ different options
-    //       { value: "personal", title: "Personal" },
-    //       { value: "client",  title: "Client" },
-    //       { value: "school",  title: "School" },
-    //     ],
-    //   },
-    // },
     {
       name: "link",
       type: "url",
+    },
+    {
+      name: "images",
+      type: "array",
+      of: [{type: 'image'}]
     },
     {
       name: "tags",
