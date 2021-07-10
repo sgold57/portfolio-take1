@@ -21,18 +21,22 @@ export default {
       type: "text",
     },
     {
-      name: "projectType",
-      title: "Project type",
+      name: "api",
       type: "string",
-      options: {
-        list: [
-          // Different dropdown w/ different options
-          { value: "personal", title: "Personal" },
-          { value: "client",  title: "Client" },
-          { value: "school",  title: "School" },
-        ],
-      },
     },
+    // {
+    //   name: "projectType",
+    //   title: "Project type",
+    //   type: "string",
+    //   options: {
+    //     list: [
+    //       // Different dropdown w/ different options
+    //       { value: "personal", title: "Personal" },
+    //       { value: "client",  title: "Client" },
+    //       { value: "school",  title: "School" },
+    //     ],
+    //   },
+    // },
     {
       name: "link",
       type: "url",

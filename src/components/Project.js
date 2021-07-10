@@ -10,7 +10,7 @@ export default function Project(){
       technologiesUsed, 
       institution, 
       description, 
-      projectType, 
+      api, 
       link, 
       tags
     }`)
@@ -52,8 +52,18 @@ export default function Project(){
                 {project.institution}
               </span>
               <span className="text-red-500">
-                <strong className="font-bold text-blue-700">Type:</strong>{"  "}
-                {project.projectType}
+                <a 
+                  href={project.api}
+                  alt={project.api}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong className="font-bold text-blue-700">
+                    <u>
+                      API Used
+                    </u>
+                  </strong>
+                </a>  
               </span>
               <p className="my-6 text-lg text-gray-700 leading-relax">
                 {project.description}
