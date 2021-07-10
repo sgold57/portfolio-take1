@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client.js";
+import imageUrlBuilder from '@sanity/image-url';
+
+const builder = imageUrlBuilder(sanityClient);
+
+function urlFor(source) {
+  return builder.image(source);
+}
 
 export default function Project(){
   const [projectData, setProjectData] = useState(null);
@@ -11,7 +18,8 @@ export default function Project(){
       institution, 
       description, 
       api, 
-      link, 
+      link,
+      images, 
       tags
     }`)
     .then((data) => setProjectData(data))
@@ -44,7 +52,7 @@ export default function Project(){
                   <strong className="font-bold text-blue-700">Technologies Used:</strong>{"  "}
                 </span>
                 {project.technologiesUsed.map(techUrl => 
-                  <img className="w-11 h-11 pr-2 mb-3 mt-1" src={techUrl} />
+                  <img className="w-11 h-11 pr-2 mb-3 mt-1" src={techUrl} alt="UNKNOWN" />
                   )}                  
               </div>
               <span className="text-red-500">
@@ -59,9 +67,7 @@ export default function Project(){
                   rel="noopener noreferrer"
                 >
                   <strong className="font-bold text-blue-700">
-                    <u>
-                      API Used
-                    </u>
+                    <u>API Used</u>
                   </strong>
                 </a>  
               </span>
@@ -80,6 +86,11 @@ export default function Project(){
                 </span>
               </a>
             </div>
+              <div className="imageDiv my-6">
+                {project.images.map(image => 
+                  <img src={urlFor(image)} alt="screenshot" />
+                )}
+              </div>
           </article>
           ))}
         </section>
