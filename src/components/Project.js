@@ -88,7 +88,7 @@ export default function Project(){
             </div>
               <div className="imageDiv my-6">
                 {project.images.map(image => 
-                  <img src={urlFor(image)} alt="screenshot" />
+                  <img className="mb-3" src={urlFor(image)} alt="screenshot" />
                 )}
               </div>
           </article>
