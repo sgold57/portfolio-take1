@@ -4,9 +4,11 @@ import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
 
 
 export default function Home({ getBballLink, bballLinks }){
+
   
   return (
     // mt-20 lg:mt-24 xl:mt-28
+    // mob-s:bg-green-500 mob-m:bg-yellow-700 mob-l:bg-pink-200
     <main className="bg-blue-700 bg-opacity-90 h-screen w-screen overflow-auto">
       <section className="relative flex max-w-screen top-12 lg:top-8 py-8">
         <img className="self-center max-w-screen opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
