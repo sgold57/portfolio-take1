@@ -31,7 +31,7 @@ export default function About(){
             style={{ height: 45, width: 45 }}
           />
         </div>
-        <div className="shadow:xl pb-36 md:ml-6 lg:ml-8 p-6 md:pt-32 lg:pt-36 mx-auto">
+        <div className="shadow:xl pb-36 md:ml-6 lg:ml-8 p-6 md:pt-24 lg:pt-36 mx-auto">
           <img className="" src={aboutMe} alt="About Me" />
         </div>
     </main>
