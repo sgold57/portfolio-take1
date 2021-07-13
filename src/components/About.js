@@ -1,21 +1,36 @@
 import React from "react";
 import aboutMe from "../images/aboutMeSnippets/aboutMe.png"
-// import sanityClient from "../client.js";
-// import BlockContent from "@sanity/block-content-to-react";
-// import imageUrlBuilder from "@sanity/image-url";
+import { SocialIcon } from "react-social-icons";
 
-
-
-// const builder = imageUrlBuilder(sanityClient);
-// function urlFor(source) {
-//   return builder.image(source)
-// }
 
 export default function About(){
   
   
   return (
-    <main className="bgImageOffWhite h-screen w-screen pt-6 lg:pt-8 overflow-auto" >
+    <main className="bgImageOffWhite h-screen w-screen pt-6 overflow-auto" >
+      <div className="flex justify-center sm:hidden ml-2 mr-4">
+          <SocialIcon 
+            url="https://www.linkedin.com/in/samgold57/" 
+            className="linkedInLogo ml-2 mr-3 sm:mr-2 mt-5 lg:mt-7" 
+            target="_blank" //opens new tab
+            fgColor="#fff" 
+            style={{ height: 45, width: 45 }}
+          />
+          <SocialIcon 
+            url="https://github.com/sgold57" 
+            className="githubLogo mr-3 sm:mr-2  mt-5 lg:mt-7" 
+            target="_blank" //opens new tab
+            fgColor="#fff" 
+            style={{ height: 45, width: 45 }}
+          />
+          <SocialIcon 
+            url="https://sgold5757.medium.com/" 
+            className="mediumLogo mr-3 sm:mr-2  mt-5 lg:mt-7" 
+            target="_blank" //opens new tab
+            fgColor="#fff" 
+            style={{ height: 45, width: 45 }}
+          />
+        </div>
         <div className="shadow:xl pb-36 md:ml-6 lg:ml-8 p-6 md:pt-32 lg:pt-36 mx-auto">
           <img className="" src={aboutMe} alt="About Me" />
         </div>
@@ -25,26 +40,6 @@ export default function About(){
 
 
 
-{/* <section className="bg-green-800 rounded-lg shadow-3xl lg:flex p-20">
-<img 
-src={urlFor(author.authorImage).url()} 
-className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
-/>
-<div className="text-lg flex flex-col justify-center">
-<h1 className="text-6xl text-green-300 mb-4">
-Hey there. I'm{" "}
-<span className="text-green-100">{author.name}</span>
-</h1>
-<div className="prose lg:prose-xl text-white">
-<BlockContent 
-blocks={author.bio} 
-projectId="1mann1nu" 
-dataset="production"
-/>
-</div>
-</div>
-</section> */}
-// )
 
 
 //   const [author, setAuthor] = useState(null);
@@ -58,3 +53,16 @@ dataset="production"
 //   }, []);
 
 //   if(!author) return <div>Loading...</div>;
+
+
+//FOR TOP OF PAGE
+// import sanityClient from "../client.js";
+// import BlockContent from "@sanity/block-content-to-react";
+// import imageUrlBuilder from "@sanity/image-url";
+
+
+
+// const builder = imageUrlBuilder(sanityClient);
+// function urlFor(source) {
+//   return builder.image(source)
+// }

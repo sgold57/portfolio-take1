@@ -29,11 +29,11 @@ export default function Project(){
   return (
     <main className="bg-blue-700 h-screen w-screen pt-12 overflow-y-auto">
       {/* mt-24 lg:mt-28  FOR LINE 24??? */}
-      <section className="container flex flex-col content-center mb-36 mr-4">
+      <section className="container flex flex-col content-center mb-24 mr-4">
         <h1 className="imageRed opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center mb-8 mx-32 lg:mx-56 py-3 md:pt-3 border-double border-4 border-yellow-200 shadow-xl">
           WORK EXAMPLES
         </h1>
-        <section className="grid cols-span-2 xl:grid-cols-2 gap-8 ml-12">
+        <section className="grid cols-span-2 xl:grid-cols-2 gap-8 ml-12 mr-8">
           {projectData && projectData.map((project, index) => ( 
           <article className="relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10">
             <h3 className="text-red-500 text-3xl font-bold mb-2 hover:text-red-700">
