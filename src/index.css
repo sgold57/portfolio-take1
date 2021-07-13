@@ -24,22 +24,40 @@
   color: rgb(207,75,70);
 }
 
+main {
+  background-size: cover;
+}
+
 
 .bgImageOffWhite {
   background-color: rgb(234,218,181);
 }
 
 html {
-  height: 100%;
-  overflow: hidden;
+  background-size: cover;
+  overflow: scroll;
 }
 
-@media screen and (max-width: 425px){
-  main { 
-    background-color: rgba(29, 78, 216);
+@media (max-width: 320px){
+  .background {
     background-size: cover;
-    /* min-width: full;
-    min-height: full; */
+  }
+  
+  .textDiv {
+    background-color: red;
+  }
+}
+
+@media (max-width: 639px){
+  .background {
+    background-size: cover;
+  }
+  
+}
+
+@media (max-width: 320px){
+  .background {
+    background-size: cover;
   }
   
   .textDiv {
