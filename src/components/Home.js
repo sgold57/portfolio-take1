@@ -12,7 +12,7 @@ export default function Home({ getBballLink, bballLinks }){
     <main className="background bg-blue-700 bg-opacity-90 h-screen w-screen overflow-auto">
       <section className="relative flex w-screen top-12 lg:top-8 py-8">
         <img className="self-center max-w-screen opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
-        <div className="absolute textDiv flex-col content-evenly inset-y-4 sm:inset-y-8 lg:inset-y-1/2 lg:mt-10 left-1/2 w-1/2 text-xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
+        <div className="absolute textDiv flex-col content-evenly inset-y-4 sm:inset-y-8 lg:inset-y-1/2 lg:mt-10 left-1/2 w-1/2 text-lg sm:text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
           <div className="flex-col lg:mr-5">
             <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold mt-12 lg:mt-5 xl:mt-4">
               <span className="imageRed text-opacity-80">SOFTWARE</span>

@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
   return (
-    <header className="bgImageOffWhite bg-cover sticky top-0 w-full h-12 sm:h-20 lg:h-24 xl:h-28">
+    <header className="bgImageOffWhite bg-cover sticky top-0 w-full h-16 sm:h-20 lg:h-24 xl:h-28">
       <div className="w-full flex justify-center sm:justify-start mx-2">
         <nav className="flex">
           <NavLink 
@@ -12,7 +12,7 @@ export default function NavBar(){
             exact 
             //OLD CSS className="inflex-flex px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
             
-            className="inline-flex bodyFont imageRed text-opacity-80 font-bold tracking-wide sm:items-center text-3xl md:text-4xl lg:text-6xl xl:text-7xl sm:mx-1 sm:px-0.75 mt-2 sm:mt-3 lg:mt-4 xl:mt-7 md:ml-6 lg:ml-8 md:mr-4 pr-2 md:pr-0"
+            className="inline-flex bodyFont imageRed text-opacity-80 font-bold tracking-wide sm:items-center text-xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl sm:mx-1 sm:px-0.75 mt-2 sm:mt-3 lg:mt-4 xl:mt-7 md:ml-6 lg:ml-8 md:mr-4 pr-2 md:pr-0"
           >
             SAM GOLD
           </NavLink>
