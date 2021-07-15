@@ -43,7 +43,7 @@ export default function Project(){
                 alt={project.name}
                 target="_blank"
                 rel="noopener noreferrer"
-                key={project.name}
+                key={project}
                 >{project.name}
               </a>
             </h3>
