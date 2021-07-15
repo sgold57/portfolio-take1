@@ -33,6 +33,29 @@ main {
   background-color: rgb(234,218,181);
 }
 
+
+@media screen and (max-width: 639px){
+  .textDiv {
+    top: 9%;
+    left: 49%;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 1rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+}
+
 @media screen and (max-width: 539px){
   .nameTab {
     font-size: 1.5rem;
@@ -55,9 +78,83 @@ main {
     padding-right: 0.125rem;
     padding-top: 0.125rem;
   }
+
+  .contentDiv {
+    padding-top: 7rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 13%;
+    left: 49%;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 539px) and (max-height: 822px){
+  .nameTab {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1.125rem;
+    margin-right: 0.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    line-height: 1rem;
+  }
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 7rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 15%;
+    left: 49%;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
   .nameTab {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -78,6 +175,129 @@ main {
     padding-left: 0.125rem;
     padding-right: 0.125rem;
     padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 6rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 11%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+}
+
+@media screen and (max-width: 410px) and (max-height: 811px) {
+  .nameTab {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+    margin-top: 0.125rem;
+    line-height: 1rem;
+  }
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 6rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 12%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.125rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+}
+
+@media screen and (max-width: 374px){
+  .nameTab {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: 0.75rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.75rem;
+    margin-left: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .activeNav {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .contentDiv {
+    padding-top: 4rem;
+    padding-bottom: 23rem;
+  }
+
+  .textDiv {
+    top: 9%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 1.5rem;
+    margin-left: 0.75rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.25rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
   }
 }
 
@@ -102,6 +322,31 @@ main {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
   }
+
+  .contentDiv {
+    padding-top: 4rem;
+    padding-bottom: 19.5rem;
+  }
+
+  .textDiv {
+    top: 8%;
+    left: 49%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 1.75rem;
+    margin-left: 0.5rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.25rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
 }
 
   @media screen and (max-width: 319px){
@@ -124,6 +369,30 @@ main {
     .activeNav {
       padding-left: 0.25rem;
       padding-right: 0.25rem;
+    }
+
+    .contentDiv {
+      padding-top: 3.5rem;
+      padding-bottom: 27rem;
+    }
+
+    .textDiv {
+      top: 15%;
+      left: 48%;
+      font-size: 0.675rem;
+      line-height: 1.25rem;
+    }
+
+    .innerTextDiv{
+      margin-top: 0.125rem;
+    }
+    
+    .topTextDiv {
+      margin-top: 0.1rem;
+    }
+
+    .rightText {
+      margin-left:0.375rem;
     }
   }
 
