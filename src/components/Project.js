@@ -35,7 +35,7 @@ export default function Project(){
         </h1>
         <section className="projSection grid cols-span-2 xl:grid-cols-2 gap-8 ml-12 mr-8">
           {projectData && projectData.map((project, index) => ( 
-          <article className="border-2 border-black border-solid projArticle relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10">
+          <article className="border-2 border-black border-solid projArticle relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10 shadow-xl">
             <h3 className="techHeader text-red-500 text-center text-xl sm:text-3xl lg:text-5xl font-bold mb-2 hover:text-red-700">
               {/* clickable a tag */}
               <a
@@ -48,7 +48,7 @@ export default function Project(){
               </a>
             </h3>
             <div className="attributesDiv flex flex-col sm:block text-md space-x-0.5 sm:space-x-4">  {/* where all the information (title, type, date) will live */}
-              <div className="flex sm:content-evenly lg:content-center py-1 sm:pl-2 md:pl-36 lg:pl-64 text-sm md:text-lg lg:text-xl">
+              <div className="flex sm:content-evenly lg:content-center py-1 sm:pl-28 md:pl-36 lg:pl-64 text-sm sm:text-lg lg:text-xl">
                 <span className="text-red-500 sm:mr-2 sm:mt-4">
                   <strong className="techSpan font-bold text-blue-700 mr-2">Technologies Used:</strong>{"  "}
                 </span>
@@ -56,7 +56,7 @@ export default function Project(){
                   <img className="techIcon w-10 h-10 pr-1 sm:w-11 sm:h-11 lg:h-15 lg:w-15 sm:pr-2 sm:mb-3 sm:mt-1" src={techUrl} alt="UNKNOWN" />
                   )}                  
               </div>
-              <span className="fiSpan text-red-500 text-base lg:text-xl md:pl-32 lg:pl-56 py-2 self-center">
+              <span className="fiSpan text-red-500 text-base lg:text-xl sm:pl-20 md:pl-32 lg:pl-56 py-2 self-center">
                 <strong className="sm:font-bold text-blue-700 tracking-normal">Institution:</strong>{"  "}
                 {project.institution}
               </span>
