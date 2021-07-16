@@ -25,7 +25,7 @@
 }
 
 main {
-  background-size: cover;
+  background-size: 100vh;
 }
 
 
@@ -33,34 +33,474 @@ main {
   background-color: rgb(234,218,181);
 }
 
-html {
-  background-size: cover;
-  overflow: scroll;
-}
 
-@media (max-width: 320px){
-  .background {
-    background-size: cover;
-  }
-  
+@media screen and (max-width: 639px){
   .textDiv {
-    background-color: red;
+    top: 9%;
+    left: 49%;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 1rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
   }
 }
 
-@media (max-width: 639px){
-  .background {
-    background-size: cover;
+@media screen and (max-width: 539px){
+  .nameTab {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1.125rem;
+    margin-right: 0.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: -0.025em;
   }
-  
-}
 
-@media (max-width: 320px){
-  .background {
-    background-size: cover;
+  .tabsDiv {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    line-height: 1rem;
   }
-  
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 7rem;
+    padding-bottom: 31.5rem;
+  }
+
   .textDiv {
-    background-color: red;
+    top: 13%;
+    left: 49%;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+  .projHeader {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
   }
 }
+
+@media screen and (max-width: 539px) and (max-height: 822px){
+  .nameTab {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1.125rem;
+    margin-right: 0.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    line-height: 1rem;
+  }
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 7rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 15%;
+    left: 49%;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+}
+
+@media screen and (max-width: 410px) {
+  .nameTab {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+    margin-top: 0.125rem;
+    line-height: 1rem;
+  }
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 6rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 11%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+  .projHeader {
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 410px) and (max-height: 811px) {
+  .nameTab {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+    margin-top: 0.125rem;
+    line-height: 1rem;
+  }
+
+  .activeNav {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+    padding-top: 0.125rem;
+  }
+
+  .contentDiv {
+    padding-top: 6rem;
+    padding-bottom: 31.5rem;
+  }
+
+  .textDiv {
+    top: 12%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 2.125rem;
+    margin-left: 0.25rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.5rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+  .projSection {
+    margin-left: 1.75rem;
+    margin-right: 2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 374px){
+  .nameTab {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: 0.75rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.75rem;
+    margin-left: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .activeNav {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .contentDiv {
+    padding-top: 4rem;
+    padding-bottom: 23rem;
+  }
+
+  .textDiv {
+    top: 9%;
+    left: 49%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 1.5rem;
+    margin-left: 0.75rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.25rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+  .projHeader{
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .projArticle {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .projSection {
+    margin-left: 1.75rem;
+  }
+
+  .techSpan {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  .techHeader {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .attributesDiv {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .projHeader {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 359px){
+  .nameTab {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: 0.75rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    letter-spacing: -0.025em;
+  }
+
+  .tabsDiv {
+    font-size: 0.75rem;
+    margin-left: 0.75rem;
+    line-height: 1.25rem;
+  }
+
+  .activeNav {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .contentDiv {
+    padding-top: 4rem;
+    padding-bottom: 19.5rem;
+  }
+
+  .textDiv {
+    top: 8%;
+    left: 49%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .innerTextDiv{
+    margin-top: 1.75rem;
+    margin-left: 0.5rem;
+  }
+
+  .secondTextDiv{
+    margin-top: 0.25rem;
+  }
+
+  .rightText {
+    margin-left:0.375rem;
+  }
+
+  .projHeader{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .projArticle {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .projSection {
+    margin-left: 1.75rem;
+  }
+
+  .techSpan {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .techIcon {
+    width: 2rem;
+    height:2rem;
+  }
+
+  .fiSpan {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: -0.025em;
+  }
+
+  .apiSpan {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .descriptionP {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+}
+
+  @media screen and (max-width: 319px){
+    .nameTab {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      margin-left: 0.5rem;
+      margin-right: 0.25rem;
+      margin-top: 0.75rem;
+      letter-spacing: -0.025em;
+    }
+  
+    .tabsDiv {
+      font-size: 0.75rem;
+      margin-left: 0.125rem;
+      margin-top: 0.125rem;
+      line-height: 1.25rem;
+    }
+
+    .activeNav {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+    }
+
+    .contentDiv {
+      padding-top: 3.5rem;
+      padding-bottom: 27rem;
+    }
+
+    .textDiv {
+      top: 15%;
+      left: 48%;
+      font-size: 0.675rem;
+      line-height: 1.25rem;
+    }
+
+    .innerTextDiv{
+      margin-top: 0.125rem;
+    }
+    
+    .topTextDiv {
+      margin-top: 0.1rem;
+    }
+
+    .rightText {
+      margin-left:0.375rem;
+    }
+
+  }
+
+
+
