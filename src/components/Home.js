@@ -30,7 +30,7 @@ export default function Home({ getBballLink, bballLinks }){
             <div className="innerTextDiv flex-col tracking-tighter mt-7 sm:mt-16 md:mt-20 lg:mt-8 lg:mr-5 xl:mt-10 bodyFont font-extrabold">
               <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold">
                 <a href="https://open.spotify.com/playlist/6J6kPoch1Rg1ptd1IkxKD4?si=d958ea527d5a4130" target="_blank" rel="noreferrer">
-                  <span className="imageRed text-opacity-80">90'S RAP</span>
+                  <span className="imageRed hover:text-yellow-200 text-opacity-80">90'S RAP</span>
                   <span className="rightText text-yellow-200 ml-3">ENTHUSIAST</span> 
                 </a>
               </div> 
@@ -38,7 +38,7 @@ export default function Home({ getBballLink, bballLinks }){
               <div className="secondTextDiv flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold mt-1 md:mt-6 lg:mt-4">
                 <a href={getBballLink(bballLinks)}>
                   <span className="text-yellow-200">BASKETBALL</span>
-                  <span className="rightText imageRed text-opacity-80 ml-3">JUNKIE</span> 
+                  <span className="rightText imageRed hover:text-yellow-200 text-opacity-80 ml-3">JUNKIE</span> 
                 </a>
               </div> 
             </div>          

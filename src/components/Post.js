@@ -29,11 +29,11 @@ export default function Post(){
     <main className="bg-blue-700 h-screen w-screen overflow-auto">
       <section className="container mx-auto">
           <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl bodyFont flex content-evenly justify-center pt-32 mb-16">
-            <span className="text-red-500 mx-2 lg:mx-3">DISCOVERIES FOUND</span>
-            <span className="text-yellow-200 mx-3 lg:mx-4">TIDBITS LEARNED</span>
-            <span className="text-red-500 mx-2 lg:mx-3">MUSINGS EXPRESSED</span>
+            <span className="text-red-500 mx-2 lg:mx-3">THIS PAGE IS</span>
+            <span className="text-yellow-200 mx-3 lg:mx-4">A WORK IN PROGRESS</span>
+            <span className="text-red-500 mx-2 lg:mx-3">LIKE KANBAN</span>
           </div>
-          <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {/* <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
               {postData && postData.map((post, index) => (
             <article>
               <Link to={"/post/" + post.slug.current} key={post.slug.current}>
@@ -56,7 +56,7 @@ export default function Post(){
               </Link>
             </article>
             ))}
-          </div>
+          </div> */}
       </section>
     </main>
   );
