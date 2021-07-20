@@ -53,21 +53,21 @@ export default function NavBar(){
         <div className="hidden sm:inline-flex ml-2 mr-4 lg:ml-7 lg:mr-1">
           <SocialIcon 
             url="https://www.linkedin.com/in/samgold57/" 
-            className="linkedInLogo ml-2 lg:ml-5 mr-3 sm:mr-2 mt-5 lg:mt-7" 
+            className="linkedInLogo ml-2 lg:ml-5 mr-3 sm:mr-2 xl:mr-5 mt-5 lg:mt-7" 
             target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 45, width: 45 }}
             />
           <SocialIcon 
             url="https://github.com/sgold57" 
-            className="githubLogo mr-3 sm:mr-2  mt-5 lg:mt-7" 
+            className="githubLogo mr-3 sm:mr-2 xl:mr-5 mt-5 lg:mt-7" 
             target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 45, width: 45 }}
             />
           <SocialIcon 
             url="https://sgold5757.medium.com/" 
-            className="mediumLogo mr-3 sm:mr-2  mt-5 lg:mt-7" 
+            className="mediumLogo mr-3 sm:mr-2 xl:mr-5 mt-5 lg:mt-7" 
             target="_blank" //opens new tab
             fgColor="#fff" 
             style={{ height: 45, width: 45 }}
