@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import sanityClient from "../client.js";
 
 // 2 ways to query Sanity Studio... GROQ (created inhouse w/ Sanity), and GraphQL... WE ARE USING GROQ
 
 export default function Post(){
-  const [postData, setPost] = useState(null);
+  // const [postData, setPost] = useState(null);
 
-  useEffect(() => {
-    // NEXT FETCH QUERIES ALL POST TYPES AND RETURNS TITLE, SLUG, IMAGE, and ALT
-    sanityClient
-      .fetch(`*[_type == "post"]{
-        title,
-        slug,
-        mainImage{
-          asset->{
-            _id,
-            url
-          },
-          alt
-        }
-      }`)
-      .then((data) => setPost(data))
-      .catch(console.error)
-  }, []);
+  // useEffect(() => {
+  //   // NEXT FETCH QUERIES ALL POST TYPES AND RETURNS TITLE, SLUG, IMAGE, and ALT
+  //   sanityClient
+  //     .fetch(`*[_type == "post"]{
+  //       title,
+  //       slug,
+  //       mainImage{
+  //         asset->{
+  //           _id,
+  //           url
+  //         },
+  //         alt
+  //       }
+  //     }`)
+  //     .then((data) => setPost(data))
+  //     .catch(console.error)
+  // }, []);
   
   return(
     <main className="bg-blue-700 h-screen w-screen overflow-auto">
