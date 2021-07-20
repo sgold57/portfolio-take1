@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 // import { Link } from "react-router-dom";
-import sanityClient from "../client.js";
+// import sanityClient from "../client.js";
 
 // 2 ways to query Sanity Studio... GROQ (created inhouse w/ Sanity), and GraphQL... WE ARE USING GROQ
 
