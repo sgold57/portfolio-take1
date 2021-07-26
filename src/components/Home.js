@@ -18,7 +18,7 @@ export default function Home({ getBballLink, bballLinks }){
           <img className="mt-10 pb-32 opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
           {/* lg:inset-y-72 */}
           {/* OLD CSS <div className="border-2 border-solid border-yellow-400 absolute h-5/6 textDiv flex-col content-evenly lg:inset-y-36 md:mt-4 lg:mt-12 xl:mt-64 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl"> */}
-          <div className="absolute h-5/6 textDiv flex-col content-evenly lg:justify-end left-1/2 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:pr-12 lg:pr-5 lg:h-2/3 xl:h-3/4 lg:mt-8 lg:pt-80 lg:pl-16 xl:mt-24 xl:mb-12">
+          <div className="absolute h-5/6 textDiv flex-col content-evenly lg:justify-end left-1/2 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:pr-12 lg:pr-5 lg:h-2/3 xl:h-3/4 lg:mt-8 lg:pt-80 lg:pl-16 xl:mb-16">
             <div className="flex-col lg:mr-5">
               <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter bodyFont font-extrabold mt-20 lg:mt-1 xl:mt-4">
                 <span className="imageRed text-opacity-80">SOFTWARE</span>
