@@ -12,11 +12,12 @@ export default function Home({ getBballLink, bballLinks }){
     <main className="h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 overflow-auto">
     
     {/* <main className="absolute top-16 sm:top-20 lg:top-24 xl:top-28 mb-36 max-h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 border-4 border-solid border-red-500"> */}
-      <div className="contentDiv max-h-screen pt-12 md:pt-56 lg:pt-24 pb-96 z-10 border-4 border-solid border-red-500">
+      <div className="contentDiv max-h-screen pt-12 md:pt-24 pb-96 z-10 border-4 border-solid border-red-500">
 
         <section className="flex h-5/6 border-4 border-solid border-green-300">
           <img className="mt-10 opacity-90 border-4 border-solid border-red-500" src={HomePagePhoto} alt="Denver Graphic"></img>
-          <div className="border-4 border-solid border-yellow-400 absolute textDiv flex-col content-evenly inset-y-16 lg:inset-y-72 md:mt-48 lg:mt-56 xl:mt-64 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
+          {/* lg:inset-y-72 */}
+          <div className="border-4 border-solid border-yellow-400 absolute max-h-screen textDiv flex-col content-evenly lg:inset-y-36 md:mt-4 lg:mt-12 xl:mt-64 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
             <div className="flex-col lg:mr-5">
               <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter bodyFont font-extrabold mt-20 lg:mt-1 xl:mt-4">
                 <span className="imageRed text-opacity-80">SOFTWARE</span>
