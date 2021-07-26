@@ -24,9 +24,8 @@
   color: rgb(207,75,70);
 }
 
-body, html{
+main{
   background-color: rgb(44, 86, 218);
-  opacity: 0.9;
 }
 
 .bgImageOffWhite {

@@ -9,10 +9,10 @@ export default function Home({ getBballLink, bballLinks }){
   return (
     // mt-20 lg:mt-24 xl:mt-28
     // mob-s:bg-green-500 mob-m:bg-yellow-700 mob-l:bg-pink-200
-    <main className="h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 overflow-auto">
+    <main className="h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 overflow-scroll">
     
     {/* <main className="absolute top-16 sm:top-20 lg:top-24 xl:top-28 mb-36 max-h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 border-4 border-solid border-red-500"> */}
-      <div className="contentDiv max-h-screen pt-12 md:pt-24 pb-96 z-10">
+      <div className="contentDiv max-h-screen pt-12 md:pt-24 z-10">
 
         <section className="flex h-full">
           <img className="mt-10 opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
