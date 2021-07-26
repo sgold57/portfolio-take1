@@ -35,15 +35,25 @@
 
 
 @media screen and (max-width: 639px){
-  .textDiv {
+  /* .textDiv {
     top: 9%;
     left: 49%;
     font-size: 1.5rem;
     line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 9%;
+    left: 48%;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 2.25rem;
+    font-size: 1.375rem;
+    line-height: 1.25rem;
   }
 
   .innerTextDiv{
-    margin-top: 2.25rem;
+    margin-top: 3rem;
     margin-left: 0.25rem;
   }
 
@@ -84,15 +94,25 @@
     padding-bottom: 31.5rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 13%;
     left: 49%;
     font-size: 1.125rem;
     line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 15%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   .innerTextDiv{
-    margin-top: 2.25rem;
+    margin-top: 2rem;
     margin-left: 0.25rem;
   }
 
@@ -139,10 +159,20 @@
     padding-bottom: 31.5rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 15%;
     left: 49%;
     font-size: 1.125rem;
+    line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 15%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 2.5rem;
+    font-size: 1rem;
     line-height: 1.25rem;
   }
 
@@ -189,10 +219,20 @@
     padding-bottom: 31.5rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 11%;
     left: 49%;
     font-size: 1rem;
+    line-height: 1.25rem;
+  } */
+
+    .textDiv {
+    top: 12%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 2.5rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
   }
 
@@ -245,10 +285,20 @@
     padding-bottom: 31.5rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 12%;
     left: 49%;
     font-size: 1rem;
+    line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 12%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 3rem;
+    font-size: 0.875rem;
     line-height: 1.25rem;
   }
 
@@ -299,15 +349,25 @@
     padding-bottom: 23rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 9%;
     left: 49%;
     font-size: 1rem;
     line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 7%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .innerTextDiv{
-    margin-top: 1.5rem;
+    margin-top: 1.875rem;
     margin-left: 0.75rem;
   }
 
@@ -387,10 +447,20 @@
     padding-bottom: 19.5rem;
   }
 
-  .textDiv {
+  /* .textDiv {
     top: 8%;
     left: 49%;
     font-size: 0.875rem;
+    line-height: 1.25rem;
+  } */
+
+  .textDiv {
+    top: 7%;
+    left: 48%;
+    padding-right: 0.4rem;
+    padding-left: 0.2rem;
+    padding-top: 3rem;
+    font-size: 0.75rem;
     line-height: 1.25rem;
   }
 
@@ -482,14 +552,16 @@
     }
 
     .textDiv {
-      top: 15%;
+      top: 5%;
       left: 48%;
+      padding-right: 0.4rem;
+      padding-top: 3rem;
       font-size: 0.675rem;
       line-height: 1.25rem;
     }
 
     .innerTextDiv{
-      margin-top: 0.125rem;
+      margin-top: 0.75rem;
     }
     
     .topTextDiv {
