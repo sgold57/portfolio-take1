@@ -1,33 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import sanityClient from "../client.js";
 // import { Link } from "react-router-dom";
-// import sanityClient from "../client.js";
 
 // 2 ways to query Sanity Studio... GROQ (created inhouse w/ Sanity), and GraphQL... WE ARE USING GROQ
 
-export default function Post(){
-  // const [postData, setPost] = useState(null);
+export default function Code(){
+  const [codeData, setCode] = useState(null);
 
-  // useEffect(() => {
-  //   // NEXT FETCH QUERIES ALL POST TYPES AND RETURNS TITLE, SLUG, IMAGE, and ALT
-  //   sanityClient
-  //     .fetch(`*[_type == "post"]{
-  //       title,
-  //       slug,
-  //       mainImage{
-  //         asset->{
-  //           _id,
-  //           url
-  //         },
-  //         alt
-  //       }
-  //     }`)
-  //     .then((data) => setPost(data))
-  //     .catch(console.error)
-  // }, []);
+  useEffect(() => {
+    // NEXT FETCH QUERIES ALL POST TYPES AND RETURNS TITLE, SLUG, IMAGE, and ALT
+    sanityClient
+      .fetch(`*[_type == "code"]{
+        language
+        description,
+        image
+      }`)
+      .then((data) => setCode(data))
+      .catch(console.error)
+  }, []);
   
   return(
-    <main className="bg-blue-700 h-screen w-screen overflow-auto">
-      <section className="container mx-auto">
+    <main className="bg-blue-700 opacity-90 bg-auto overflow-y-auto">
+      <section className="container">
           <div className="text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl bodyFont flex content-evenly justify-center pt-32 mb-16">
             <span className="text-red-500 mx-2 lg:mx-3">THIS PAGE IS</span>
             <span className="text-yellow-200 mx-3 lg:mx-4">A WORK IN PROGRESS</span>

@@ -30,7 +30,7 @@ export default function NavBar(){
               PROJECTS
             </NavLink>
             <NavLink 
-              to="/post" 
+              to="/code" 
               exact
               //OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
               className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-2 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
