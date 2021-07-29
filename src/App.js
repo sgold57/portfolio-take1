@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import SinglePost from "./components/SinglePost";
-import Post from "./components/Post";
+import Code from "./components/Code";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import './index.css';
@@ -31,8 +30,7 @@ function App() {
           <Home getBballLink={getBballLink} bballLinks={bballLinks} />
         )} />
         <Route component={Project} path='/project' exact />
-        <Route component={Post} path='/post' exact />
-        <Route component={SinglePost} path='/post/:slug' />
+        <Route component={Code} path='/code' exact />
         <Route component={About} path='/about' exact />
       </Switch>
     </BrowserRouter>

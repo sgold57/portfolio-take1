@@ -27,7 +27,7 @@ export default function Project(){
   }, []);
 
   return (
-    <main className="bg-blue-700 opacity-90 h-screen w-screen pt-12 overflow-y-auto">
+    <main className="bg-blue-700 opacity-90 pt-12 overflow-y-auto">
       {/* mt-24 lg:mt-28  FOR LINE 24??? */}
       <section className="container flex flex-col content-center mb-8 sm:mb-24 mr-4">
         <h1 className="projHeader imageRed opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center sm:mb-8 mx-16 lg:mx-56 xl:ml-96 xl:pl-1 py-3 md:pt-3 border-double border-4 border-yellow-200 shadow-xl">
