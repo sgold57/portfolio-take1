@@ -1,5 +1,6 @@
 import React from "react";
 import HomePagePhoto from "../images/denver_hp_with_lines_bigger.png"
+import '../index.css';
 
 
 
