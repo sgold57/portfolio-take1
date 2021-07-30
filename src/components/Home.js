@@ -18,26 +18,26 @@ export default function Home({ getBballLink, bballLinks }){
           <img className="mt-10 pb-32 opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
           {/* lg:inset-y-72 */}
           {/* OLD CSS <div className="border-2 border-solid border-yellow-400 absolute h-5/6 textDiv flex-col content-evenly lg:inset-y-36 md:mt-4 lg:mt-12 xl:mt-64 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl"> */}
-          <div className="absolute h-5/6 textDiv flex-col content-evenly lg:justify-end left-1/2 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:pr-12 lg:pr-5 lg:h-2/3 xl:h-3/4 lg:mt-8 lg:pt-80 lg:pl-16 xl:mb-16">
+          <div className=" absolute h-5/6 textDiv flex-col content-evenly lg:justify-end left-1/2 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:pr-3 lg:pr-1 lg:h-2/3 xl:h-3/4 sm:mt-4 lg:mt-8 lg:pt-80 xl:pt-96 lg:pl-14 xl:mb-16">
             <div className="flex-col lg:mr-5">
-              <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter bodyFont font-extrabold mt-20 lg:mt-1 xl:mt-4">
+              <div className="flex justify-start lg:justify-end md:tracking-tighter bodyFont font-extrabold mt-20 md:mt-16 ml-2 sm:ml-0 lg:mt-1 xl:mt-4">
                 <span className="imageRed text-opacity-80">SOFTWARE</span>
                 <span className="rightText text-yellow-200 ml-3">ENGINEER</span>
               </div>
-              <div className="secondTextDiv flex justify-center md:justify-start lg:justify-end bodyFont font-extrabold mt-1 md:mt-6 lg:mt-4">
+              <div className="secondTextDiv flex justify-start lg:justify-end bodyFont font-extrabold ml-2 sm:ml-0 mt-1 md:mt-6 lg:mt-4">
                 <span className="text-yellow-200">PROBLEM</span>
                 <span className="rightText imageRed text-opacity-80 ml-3">SOLVER</span>
               </div> 
             </div>
             <div className="innerTextDiv flex-col tracking-tighter mt-7 sm:mt-16 md:mt-20 lg:mt-8 lg:mr-5 xl:mt-10 bodyFont font-extrabold">
-              <div className="flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold">
+              <div className="flex justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold">
                 <a href="https://open.spotify.com/playlist/6J6kPoch1Rg1ptd1IkxKD4?si=d958ea527d5a4130" target="_blank" rel="noreferrer">
                   <span className="imageRed hover:text-yellow-200 text-opacity-80">90'S RAP</span>
                   <span className="rightText text-yellow-200 ml-3">ENTHUSIAST</span> 
                 </a>
               </div> 
               
-              <div className="secondTextDiv flex justify-center md:justify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold mt-1 md:mt-6 lg:mt-4">
+              <div className="secondTextDiv flex jjustify-start lg:justify-end md:tracking-tighter lg:tracking-normal bodyFont font-extrabold mt-1 md:mt-6 lg:mt-4">
                 <a href={getBballLink(bballLinks)}>
                   <span className="text-yellow-200">BASKETBALL</span>
                   <span className="rightText imageRed hover:text-yellow-200 text-opacity-80 ml-3">JUNKIE</span> 
