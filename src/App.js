@@ -5,7 +5,7 @@ import Code from "./components/Code";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import './index.css';
-import '.App.css';
+import './App.css';
 
 function App() {
 
