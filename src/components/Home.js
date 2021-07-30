@@ -15,7 +15,7 @@ export default function Home({ getBballLink, bballLinks }){
       <div className="min-h-screen pt-12 md:pt-24 z-10">
 
         <section className="flex">
-          <img className="mt-10 pb-32 opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
+          <img className="mt-10 lg:mt-8 xl:mt-4 pb-32 opacity-90" src={HomePagePhoto} alt="Denver Graphic"></img>
           {/* lg:inset-y-72 */}
           {/* OLD CSS <div className="border-2 border-solid border-yellow-400 absolute h-5/6 textDiv flex-col content-evenly lg:inset-y-36 md:mt-4 lg:mt-12 xl:mt-64 left-1/2 w-1/2 text-2xl md:text-4xl lg:text-4xl xl:text-5xl"> */}
           <div className=" absolute h-5/6 textDiv flex-col content-evenly lg:justify-end left-1/2 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:pr-3 lg:pr-1 lg:h-2/3 xl:h-3/4 sm:mt-4 lg:mt-8 lg:pt-80 xl:pt-96 lg:pl-14 xl:mb-16">
