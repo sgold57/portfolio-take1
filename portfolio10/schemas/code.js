@@ -1,24 +1,27 @@
 export default {
-  name: 'code',
-  title: 'Code',
-  type: 'document',
+  name: "code",
+  title: "Code",
+  type: "document",
   fields: [
     {
-      name: 'language',
-      title: 'Language',
+      name: "language",
       type: 'string',
     },
     {
       name: 'description',
-      title: 'Description',
       type: 'string',
     },
     {
       name: 'image',
-      title: 'Image',
-      type: 'image',
+      type: 'array',
+      of: [
+        {
+          type: 'image'
+        }
+      ],
     },
-  ],
+  ]
+}
 
   // preview: {
   //   select: {
@@ -33,4 +36,4 @@ export default {
   //     })
   //   },
   // },
-}
+
