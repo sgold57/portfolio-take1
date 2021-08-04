@@ -11,7 +11,7 @@ export default function NavBar(){
             exact 
             //OLD CSS className="inflex-flex px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
             
-            className="nameTab bodyFont imageRed text-opacity-80 font-bold sm:tracking-tighter sm:items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-4 lg:mt-4 xl:mt-6 md:ml-6 sm:ml-1 lg:ml-3 xl:ml-6 md:mr-4 pr-2 md:pr-0"
+            className="nameTab bodyFont imageRed text-opacity-80 font-bold sm:tracking-tighter sm:items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl mt-4 lg:mt-4 xl:mt-6 2xl:mt-3 md:ml-6 sm:ml-1 lg:ml-3 xl:ml-6 2xl:ml-12 md:mr-4 pr-2 md:pr-0"
           >
             SAM GOLD
           </NavLink>
@@ -21,7 +21,7 @@ export default function NavBar(){
               exact 
               // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
               // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
-              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 transform hover:text-red-600"
+              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 2xl:mt-6 xl:mb-4 lg:ml-2 xl:ml-5 2xl:mr-3 transform hover:text-red-600"
               
               
               activeClassName="activeNav focus:text-red-600 bg-blue-700 text-opacity-90 bg-opacity-40 px-1 rounded-lg"
@@ -33,7 +33,7 @@ export default function NavBar(){
               to="/code" 
               exact
               //OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
-              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
+              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 2xl:mt-6 xl:mb-4 lg:ml-2 xl:ml-5 2xl:mr-3 hover:text-red-600"
               activeClassName="activeNav focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
             >
               CODE
@@ -44,7 +44,7 @@ export default function NavBar(){
               // className="inline-flex tabFont items-center text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 text-opacity-90 tracking-tight mx-2 md:px-1 xl:mr-5 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
               
               // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
-              className="tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:pr-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
+              className="tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:pr-1 lg:mt-7 xl:mt-8 2xl:mt-6 xl:mb-4 lg:ml-2 xl:ml-5 2xl:mr-3 hover:text-red-600"
               activeClassName="activeNav focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
             >
               ABOUT
