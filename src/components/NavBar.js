@@ -11,11 +11,11 @@ export default function NavBar(){
             exact 
             //OLD CSS className="inflex-flex px-3 mx-4 my-7 sm:my-5 sm:px-0  text-red-700 hover:text-yellow-300 text-5xl headerFont font-bold tracking-wider sm:text-lg"
             
-            className="nameTab bodyFont imageRed text-opacity-80 font-bold tracking-normal md:tracking-tighter sm:items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl md:mx-1 mt-4 lg:mt-4 xl:mt-6 md:ml-6 lg:ml-3 xl:ml-6 md:mr-4 pr-2 md:pr-0"
+            className="nameTab bodyFont imageRed text-opacity-80 font-bold tracking-normal md:tracking-tighter sm:items-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl md:mx-1 mt-4 lg:mt-4 xl:mt-6 md:ml-6 sm:ml-2 lg:ml-3 xl:ml-6 md:mr-4 pr-2 md:pr-0"
           >
             SAM GOLD
           </NavLink>
-          <div className="tabsDiv flex md:ml-1"> 
+          <div className="tabsDiv flex ml-1"> 
             <NavLink 
               to="/project"
               exact 
@@ -50,7 +50,7 @@ export default function NavBar(){
               ABOUT
             </NavLink>
           </div>
-        <div className="hidden sm:inline-flex ml-2 mr-4 lg:ml-7 lg:mr-1">
+        <div className="hidden sm:inline-flex ml-2 mr-4 sm:ml-5 lg:ml-7 lg:mr-1">
           <SocialIcon 
             url="https://www.linkedin.com/in/samgold57/" 
             className="linkedInLogo ml-2 lg:ml-5 mr-3 sm:mr-2 xl:mr-5 mt-5 lg:mt-7" 
