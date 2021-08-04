@@ -10,7 +10,7 @@ export default function Home({ getBballLink, bballLinks }){
   return (
     // mt-20 lg:mt-24 xl:mt-28
     // mob-s:bg-green-500 mob-m:bg-yellow-700 mob-l:bg-pink-200
-    <main className="bg-blue-700 bg-cover bg-opacity-90 overflow-y-auto">
+    <main className="bg-blue-700 bg-cover h-screen bg-opacity-90 overflow-y-auto">
     
     {/* <main className="absolute top-16 sm:top-20 lg:top-24 xl:top-28 mb-36 max-h-screen w-screen bg-blue-700 bg-cover bg-opacity-90 border-4 border-solid border-red-500"> */}
       <div className="h-screen pt-12 md:pt-24 lg:pt-16 z-10">
