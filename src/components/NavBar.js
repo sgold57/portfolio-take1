@@ -44,7 +44,7 @@ export default function NavBar(){
               // className="inline-flex tabFont items-center text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold text-blue-700 text-opacity-90 tracking-tight mx-2 md:px-1 xl:mr-5 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
               
               // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
-              className="tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
+              className="tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-1 sm:mt-5 md:pr-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
               activeClassName="activeNav focus:text-red-600 bg-blue-700 text-opacity-90 px-1 bg-opacity-40 rounded-lg"
             >
               ABOUT
