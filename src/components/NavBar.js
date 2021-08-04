@@ -21,7 +21,7 @@ export default function NavBar(){
               exact 
               // OLD CSS className="inline-flex items-center px-4 mt-7 mb-8 sm:mx-2 rounded text-3xl headerFont text-green-600 hover:text-red-800 sm:text-sm"
               // className="inline-flex tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-sm sm:text-lg md:text-xl lg:text-3xl xl:text-4xl font-semibold mx-2 md:px-1 mt-5 lg:mt-6 xl:mt-7 xl:mb-4 lg:px-2 xl:ml-10 hover:text-red-600"
-              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-2 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 hover:text-red-600"
+              className="inactiveTab tabFont items-center text-blue-700 text-opacity-90 tracking-tight text-md sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold tracking:wide mr-3 mt-3 sm:mx-2 sm:mt-5 md:px-1 lg:mt-7 xl:mt-8 xl:mb-4 lg:ml-2 xl:ml-5 transform hover:text-red-600"
               
               
               activeClassName="activeNav focus:text-red-600 bg-blue-700 text-opacity-90 bg-opacity-40 px-1 rounded-lg"
