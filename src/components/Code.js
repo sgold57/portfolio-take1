@@ -30,21 +30,21 @@ export default function Code(){
     <main className="bg-blue-700 opacity-90 pt-12 overflow-y-auto">
       {/* mt-24 lg:mt-28  FOR LINE 24??? */}
       <section className="container flex flex-col content-center mb-8 sm:mb-24 mr-4">
-        <h1 className="projHeader offWhite opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center sm:mb-8 mx-16 lg:mx-56 xl:ml-96 xl:pl-1 py-3 md:pt-3 border-double border-4 border-red-500 shadow-xl">
+        <h1 className="projHeader offWhite opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center sm:mb-28 mx-16 lg:mx-56 xl:ml-96 xl:pl-1 py-3 md:pt-3  border-double border-4 border-red-500 shadow-xl">
           CODE SNIPPETS
         </h1>
-        <section className="projSection grid cols-span-2 gap-8 ml-12 mr-8 xl:mr-4 xl:ml-20 xl:pb-12">
+        <section className="projSection grid cols-span-2 gap-32 ml-12 mr-8 xl:mr-4 xl:ml-20 xl:pb-12">
           {codeData && codeData.map((code, index) => ( 
-          <article className="border-2 border-black border-solid projArticle relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10 shadow-xl">
+          <article className="border-2 border-black border-solid projArticle relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10 shadow-xl transform sm:hover:scale-125 lg:hover:scale-110">
             <h3 className="techHeader text-red-500 text-center text-xl sm:text-3xl lg:text-5xl xl:text-4xl font-bold mb-2">
-              LANGUAGE USED: {code.language}
+              LANGUAGE: {code.language}
             </h3>
             <div className="attributesDiv flex flex-col justify-center sm:block text-md space-x-0.5 sm:space-x-4">  {/* where all the information (title, type, date) will live */}
               <div className="flex flex-col content-start py-1 text-sm sm:text-lg lg:text-xl">
                 <p className="descriptionP my-6 text-center text-base sm:text-lg md:text-2xl text-gray-700 leading-relax">
                   {code.description}
                 </p>
-                <div className="imageDiv my-6 px-4">
+                <div className="imageDiv mt-16 mb-6 px-4">
                   {code.image.map(pic => 
                     <img className="mb-3 shadow-xl" src={urlFor(pic)} alt="screenshot" />
                   )}
