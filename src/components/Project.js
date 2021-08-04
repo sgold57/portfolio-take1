@@ -75,18 +75,6 @@ export default function Project(){
               <p className="descriptionP text-center my-6 text-base sm:text-lg md:text-2xl text-gray-700 leading-relax">
                 {project.description}
               </p>
-              <a 
-                href={project.link} 
-                rel="noopener noreferrer" 
-                target="_blank" 
-                key={project}
-                className="text-blue-500 lg:ml-64 font-bold hover:underline hover:text-red-400 lg:text-2xl"
-              > 
-                Github{" "}
-                <span role="img" aria-label="left pointer"> {/* aria-label is like the alt tag for emojis */}
-                👈
-                </span>
-              </a>
             </div>
               <div className="imageDiv my-6">
                 {project.images.map(image => 
