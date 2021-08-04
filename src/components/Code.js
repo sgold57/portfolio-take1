@@ -33,7 +33,7 @@ export default function Code(){
         <h1 className="projHeader offWhite opacity-90 font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl bodyFont text-center mb-24 md:mb-28 mx-16 lg:mx-56 xl:ml-80 xl:pl-1 py-3 md:pt-3 border-double border-4 border-red-500 shadow-xl">
           CODE SNIPPETS
         </h1>
-        <section className="projSection grid cols-span-2 gap-32 ml-16 mr-8 xl:mr-4 xl:ml-20 xl:pb-12">
+        <section className="projSection grid cols-span-2 gap-8 sm:gap-32 ml-16 mr-8 xl:mr-4 xl:ml-20 xl:pb-12">
           {codeData && codeData.map((code, index) => ( 
           <article className="border-2 border-black border-solid projArticle relative rounded-lg shadow-xl bodyFont bg-yellow-100 py-8 px-10 shadow-xl transform sm:hover:scale-110">
             <h3 className="techHeader text-red-500 text-center text-xl sm:text-3xl lg:text-5xl xl:text-4xl font-bold mb-2">
