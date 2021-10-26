@@ -64,7 +64,7 @@ export default function Project(){
               </span>
               <div className="flex justify-center gap-x-3 md:gap-x-9">
               
-                <span className="apiSpan text-base lg:text-xl text-red-500 py-2">
+                <span className="apiSpan text-base lg:text-xl text-red-500 py-2 px-2">
                   <a 
                     href={project.api}
                     alt={project.api}
@@ -76,7 +76,7 @@ export default function Project(){
                     </strong>
                   </a>  
                 </span>
-                <span className="apiSpan text-base lg:text-xl text-red-500 py-2">
+                <span className="apiSpan text-base lg:text-xl text-red-500 py-2 px-2">
                   <a 
                     href={project.github}
                     alt={project.github}
