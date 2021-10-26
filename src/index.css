@@ -392,12 +392,6 @@ main {
     line-height: 1.75rem;
   }
 
-  /* .attributesDiv {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-  } */
-
   .projHeader {
     margin-left: 3rem;
     margin-right: 3rem;
