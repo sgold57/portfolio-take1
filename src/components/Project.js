@@ -62,7 +62,7 @@ export default function Project(){
                 <strong className="sm:font-bold text-blue-700 tracking-normal text-center">Institution:</strong>{"  "}
                 {project.institution}
               </span>
-              <div className="flex justify-center gap-x-3 md:gap-x-9">
+              <div className="flex justify-center gap-x-4 md:gap-x-9">
               
                 <span className="apiSpan text-base lg:text-xl text-red-500 py-2">
                   <a 
